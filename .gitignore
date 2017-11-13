@@ -1,0 +1,5 @@
+build.sbt~
+
+/target
+/project/project/
+/project/target/
