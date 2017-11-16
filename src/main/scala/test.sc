@@ -1,11 +1,10 @@
-val l: List[String] = List("a", "b", "a", "b", "b", "a", "c")
-val m: Map[String, Int] = Map()
+val l: List[(Int, String)] = List((1, "sa ns iafos ma a"), (2, "ijfs a a fg e"), (3, "fa asf gea"))
 
-l.map(string => (string, 1)).foldLeft(m)(
-  (map, tuple) => map.get(tuple._1) match {
-    case Some(element) => map ++ Map(tuple._1 -> (element + 1))
-    case None => map ++ Map(tuple._1 -> 1)
-  }
-)
-
-
+l.flatMap(k => k._2.split(' ')
+  .map(word => (k._1, word)))
+  .foldLeft(Map[String, List[Int]]())((map, word) =>
+    map.get(word._2) match {
+      case Some(element) => map ++ Map(word._2 -> (List(word._1) ++ element))
+      case None => map ++ Map(word._2 -> List(word._1))
+    }
+  )

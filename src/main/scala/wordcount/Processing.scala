@@ -79,19 +79,27 @@ class Processing {
    *                          Aufgabe 3
    *   
    *********************************************************************************************
-  */      
-  
-    def getAllWordsWithIndex(l:List[(Int,String)]):List[(Int,String)]= ???
+  */
+
+  def getAllWordsWithIndex(l: List[(Int, String)]): List[(Int, String)] =
+    l.flatMap(k =>
+      getWords(k._2).map(word =>
+        (k._1, word)
+      )
+    )
     
     /*
      * Extracts all Words from a List containing tupels consisting
      * of a line number and a string
      */
-    
-  
-   def createInverseIndex(l:List[(Int,String)]):Map[String,List[Int]]={
-     
-     ???
+
+
+  def createInverseIndex(l: List[(Int, String)]): Map[String, List[Int]] = {
+    l.foldLeft(Map[String, List[Int]]())((map, word) =>
+      map.get(word._2) match {
+        case Some(element) => map ++ Map(word._2 -> (List(word._1) ++ element))
+        case None => map ++ Map(word._2 -> List(word._1))
+      })
    } 
   
    def andConjunction(words:List[String], invInd:Map[String,List[Int]]):List[Int]={
