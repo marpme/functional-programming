@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/Beleg1/.idea/modules/beleg1.iml" filepath="$PROJECT_DIR$/Beleg1/.idea/modules/beleg1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Beleg1/.idea/modules/beleg1-build.iml" filepath="$PROJECT_DIR$/Beleg1/.idea/modules/beleg1-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/functional-programming.iml" filepath="$PROJECT_DIR$/functional-programming.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/beleg1.iml" filepath="$PROJECT_DIR$/.idea/modules/beleg1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/beleg1-build.iml" filepath="$PROJECT_DIR$/.idea/modules/beleg1-build.iml" />
->>>>>>> first exercise
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/functional-programming.iml" filepath="$PROJECT_DIR$/.idea/modules/functional-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/functional-programming-build.iml" filepath="$PROJECT_DIR$/.idea/modules/functional-programming-build.iml" />
     </modules>
   </component>
 </project>

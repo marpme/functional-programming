@@ -3,17 +3,6 @@
   <component name="ScalaSbtSettings">
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
-<<<<<<< HEAD
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Beleg1" />
-        <option name="jdk" value="1.8" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Beleg1" />
-            <option value="$PROJECT_DIR$/Beleg1/project" />
-          </set>
-        </option>
-        <option name="sbtVersion" value="0.13.16" />
-=======
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="jdk" value="1.8" />
         <option name="modules">
@@ -23,9 +12,6 @@
           </set>
         </option>
         <option name="sbtVersion" value="0.13.16" />
-        <option name="useAutoImport" value="true" />
-        <option name="useOurOwnAutoImport" value="true" />
->>>>>>> first exercise
       </SbtProjectSettings>
     </option>
   </component>
