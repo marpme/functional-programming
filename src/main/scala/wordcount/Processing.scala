@@ -2,6 +2,8 @@ package wordcount
 import common._
 import mapreduce.BasicOperations
 
+import scala.language.postfixOps
+
 class Processing {
    
   /**********************************************************************************************
@@ -60,13 +62,16 @@ class Processing {
       redFun:(R, B) => R,
       base: R,
       l: List[S]): R = l.map(mapFun).foldLeft(base)(redFun)
-  
-  def countTheWordsMR(l:List[String]):List[(String,Int)]= mapReduce[String, List[String], Map[String,Int]](
-    (word) => getWords(word),
-    (list, words) => words groupBy(w => w) map(x => (x._1, x._2.count(v => true))),
+
+  def countTheWordsMR(l: List[String]): List[(String, Int)] = mapReduce[String, (String, Int), Map[String, Int]](
+    (word) => (word, 1),
+    (map, tuple) => map.get(tuple._1) match {
+      case Some(element) => map ++ Map(tuple._1 -> (element + 1))
+      case None => map ++ Map(tuple._1 -> 1)
+    },
     Map[String, Int](),
     l
-  ) toList
+  ).toList
   
   
   /**********************************************************************************************

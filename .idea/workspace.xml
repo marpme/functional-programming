@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52e5e705-e6a8-4db5-85ed-bf701de45ccb" name="Default" comment="First exercise">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/functional-programming-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/functional-programming.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="52e5e705-e6a8-4db5-85ed-bf701de45ccb" name="Default" comment="Rewritten word count operation">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/test.sc" afterPath="$PROJECT_DIR$/src/main/scala/test.sc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/wordcount/Processing.scala" afterPath="$PROJECT_DIR$/src/main/scala/wordcount/Processing.scala" />
@@ -117,21 +111,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1510833035500" expanded="true" signature="57123:57165" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57123:57183" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57123:57196" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57123:57211" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57246:59487" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57259:59472" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57313:57608" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57332:57593" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57395:57573" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57435:57539" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57456:57517" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57658:57992" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57677:57977" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57772:57957" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57812:57923" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="57833:57901" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58043:58308" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58062:58293" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58095:58273" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58135:58239" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58156:58217" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58351:58657" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58370:58642" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58444:58622" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58484:58588" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58505:58566" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58708:59063" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58727:59048" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58804:59028" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58844:58994" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="58865:58972" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="59115:59458" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="59134:59443" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="59238:59423" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="59278:59389" ph="..." />
+                <marker date="1510833035500" expanded="true" signature="59299:59367" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.sc" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.sc" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -162,6 +193,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="marpme &lt;cryzar95@googlemail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -175,8 +211,9 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/wordcount/Sentiments.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/wordcount/App.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/test.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/wordcount/Processing.scala" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/test.sc" />
       </list>
     </option>
   </component>
@@ -430,12 +467,20 @@
       <workItem from="1510478497021" duration="6673000" />
       <workItem from="1510490858610" duration="172000" />
       <workItem from="1510495146313" duration="3866000" />
-      <workItem from="1510831008526" duration="1523000" />
+      <workItem from="1510831008526" duration="1901000" />
     </task>
+    <task id="LOCAL-00001" summary="Project restructured">
+      <created>1510832599225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510832599225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12807000" />
+    <option name="totallyTimeSpent" value="13185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="22" width="1393" height="878" extended-state="6" />
@@ -474,8 +519,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Project restructured" />
+    <MESSAGE value="Rewritten word count operation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rewritten word count operation" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -877,14 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/wordcount/Processing.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -899,6 +946,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510833035500" expanded="true" signature="57123:57165" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57123:57183" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57123:57196" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57123:57211" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57246:59487" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57259:59472" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57313:57608" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57332:57593" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57395:57573" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57435:57539" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57456:57517" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57658:57992" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57677:57977" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57772:57957" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57812:57923" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="57833:57901" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58043:58308" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58062:58293" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58095:58273" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58135:58239" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58156:58217" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58351:58657" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58370:58642" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58444:58622" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58484:58588" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58505:58566" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58708:59063" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58727:59048" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58804:59028" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58844:58994" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="58865:58972" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="59115:59458" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="59134:59443" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="59238:59423" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="59278:59389" ph="..." />
+            <marker date="1510833035500" expanded="true" signature="59299:59367" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
           <folding />
         </state>
       </provider>
